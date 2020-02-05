@@ -47,8 +47,12 @@ end
 stuff = ["hand","feet", "knee", "table"]
 
 def add_s(array)
-  array.each_with_index.collect do |word|
-    if 
+  array.each_with_index.collect do |word, index|
+    if index == 2
+      word
+    else
+      word + "s"
+    end
 end
 
 
