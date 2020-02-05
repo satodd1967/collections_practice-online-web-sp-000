@@ -30,3 +30,8 @@ def kesha_maker(array)
   end
   cash
 end
+
+def find_a(array)
+  
+end
+
