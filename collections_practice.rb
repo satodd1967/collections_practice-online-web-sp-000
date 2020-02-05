@@ -26,7 +26,7 @@ m = ["blake", "ashley", "scott"]
 def kesha_maker(array)
   cash = []
   array.each do |money|
-    cash << money[3].replace("$")
+    cash << money
   end
   cash
 end
