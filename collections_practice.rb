@@ -31,7 +31,7 @@ def kesha_maker(array)
   cash
 end
 
-["apple", "orange", "pear", "avis", "arlo", "ascot" ]
+stuff = ["apple", "orange", "pear", "avis", "arlo", "ascot" ]
 
 def find_a(array)
   array.select do |a|
