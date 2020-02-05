@@ -44,9 +44,11 @@ def sum_array(array)
   end
 end
 
-stuff = 
+stuff = ["hand","feet", "knee", "table"]
 
 def add_s(array)
+  array.each_with_index.collect do |word|
+    if 
 end
 
 
