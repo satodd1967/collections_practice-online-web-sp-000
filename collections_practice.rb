@@ -31,6 +31,8 @@ def kesha_maker(array)
   cash
 end
 
+
+
 def find_a(array)
   array.select do |a|
     a.start_wich?("a")
