@@ -21,7 +21,7 @@ def reverse_array(array)
   array.reverse
 end
 
-m = 
+m = ["blake", "ashley", "scott"]
 
 def kesha_maker(array)
   array.each do |money|
