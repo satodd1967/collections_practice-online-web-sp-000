@@ -6,7 +6,7 @@ def sort_array_desc(array)
   array.sort.reverse
 end
 
-char = 
+char = ["dogs", "cat", "Horses"]
 
 def sort_array_char_count(array)
 end
