@@ -15,5 +15,7 @@ end
 e = ["blake", "ashley", "scott"]
 
 def swap_elements(array)
-  
+  array[1].replace([array[2])
+  array[2].replace([array[1])
+  array
 end
