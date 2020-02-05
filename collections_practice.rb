@@ -26,7 +26,7 @@ m = ["blake", "ashley", "scott"]
 def kesha_maker(array)
   cash = []
   array.each do |money|
-    cash << money[0..2] + money[3].replace("$") + money[4..]
+    cash << money[0..1] + money[2].replace("$") + money[3..]
   end
   cash
 end
