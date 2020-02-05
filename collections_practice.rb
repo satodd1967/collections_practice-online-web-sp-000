@@ -19,4 +19,4 @@ def swap_elements(array)
   array[2].replace(array[1])
   array
 end
-end
+
