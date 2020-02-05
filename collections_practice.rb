@@ -35,7 +35,7 @@ stuff = ["apple", "orange", "pear", "avis", "arlo", "ascot" ]
 
 def find_a(array)
   array.select do |a|
-    a.start_wich?("a")
+    a.start_with?("a")
   end
 end
 
